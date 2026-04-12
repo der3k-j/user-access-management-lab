@@ -15,9 +15,6 @@ This project simulates a basic enterprise IT environment where users, roles, and
 
 ## Screenshots
 
-### System Verification
-![System](screenshots/system-verification.png)
-
 ### User Creation
 ![Users](screenshots/user-creation.png)
 
