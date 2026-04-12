@@ -1,29 +1,37 @@
 # User Access Management & Security Lab
 
 ## Overview
-This project simulates a basic enterprise IT environment where Linux-based user access control, role-based permissions, and security policies are implemented and tested.
+This project simulates a basic enterprise IT environment where I managed user access in a Linux system using an Ubuntu VM in VirtualBox. I created multiple users (employees, manager, IT admin), organized them into role-based groups, and controlled their access through permissions and security policies.
+
+As part of the security implementation, I enforced a password policy requiring a minimum length of 8 characters and tested it by attempting to set a weak password, which was successfully rejected by the system.
 
 ## Tools Used
 - Ubuntu Linux
 - VirtualBox
 
 ## Key Features
-- User and group management
-- Role-based access control (RBAC)
-- File permission enforcement
-- Basic security policies
+- Created and managed multiple users (employee1, employee2, manager1, itadmin)
+- Organized users into groups (employees, managers, it)
+- Implemented Role-Based Access Control (RBAC)
+- Verified and configured access to a shared directory (/company_data)
+- Applied file permissions to enforce least privilege
+- Restricted administrative (sudo) access to IT only
+- Configured and tested a password policy (minimum length requirement)
 
 ## Screenshots
 
 ### User Creation
 ![Users](screenshots/user-creation.png)
+Created new user accounts to simulate employees, management, and IT roles within the system.
 
 ### Group Creation
 ![Groups](screenshots/group-creation1.png)
 ![Groups](screenshots/group-creation2.png)
+Created role-based groups to organize users and support access control through Role-Based Access Control.
 
 ### Group Assignment
 ![Assignment](screenshots/group-assignment.png)
+Assigned users to their respective groups to enforce role-based access control.
 
 ### Permissions
 ![Permissions](screenshots/permissions-set.png)
@@ -41,10 +49,12 @@ This project simulates a basic enterprise IT environment where Linux-based user 
 ![Password](screenshots/password-policy-check.png)
 
 ## What I Learned
-- Linux user and group management  
-- File permissions and security  
-- Principle of least privilege  
-- Basic system administration  
+- How to create and manage users in a Linux environment
+- How to organize users into groups and apply RBAC
+- How file permissions control access to system resources
+- How to enforce basic security policies like password requirements
+- How to test and validate access control behavior
+- Practical experience with Linux commands used in real IT roles
 
 ## How I Learned & Applied Linux Commands
 
