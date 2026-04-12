@@ -37,6 +37,9 @@ This project simulates a basic enterprise IT environment where users, roles, and
 ### Password Policy
 ![Password](screenshots/password-policy.png)
 
+### Password Policy Check
+![Password](screenshots/password-policy-check.png)
+
 ## What I Learned
 - Linux user and group management  
 - File permissions and security  
