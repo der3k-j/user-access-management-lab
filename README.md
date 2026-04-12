@@ -1,7 +1,7 @@
 # User Access Management & Security Lab
 
 ## Overview
-This project simulates a basic enterprise IT environment where users, roles, and access controls are configured using Linux.
+This project simulates a basic enterprise IT environment where Linux-based user access control, role-based permissions, and security policies are implemented and tested.
 
 ## Tools Used
 - Ubuntu Linux
