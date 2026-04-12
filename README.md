@@ -22,31 +22,49 @@ As part of the security implementation, I enforced a password policy requiring a
 
 ### User Creation
 ![Users](screenshots/user-creation.png)
-Created new user accounts to simulate employees, management, and IT roles within the system.
+
+- Created new user accounts to simulate employees, management, and IT roles within the system.
 
 ### Group Creation
 ![Groups](screenshots/group-creation1.png)
 ![Groups](screenshots/group-creation2.png)
-Created role-based groups to organize users and support access control through Role-Based Access Control.
+
+- Created role-based groups to organize users and support access control through Role-Based Access Control.
 
 ### Group Assignment
 ![Assignment](screenshots/group-assignment.png)
-Assigned users to their respective groups to enforce role-based access control.
 
+- Assigned users to their respective groups to enforce role-based access control.
+
+### Directory Verification
+![Directory](screenshots/directory-verification.png)
+
+- Verified the existence of the /company_data directory used to store shared resources.
+  
 ### Permissions
 ![Permissions](screenshots/permissions-set.png)
+
+- Configured directory permissions to restrict access based on user roles and enforce least privilege.
 
 ### Access Testing
 ![Access](screenshots/access-test.png)
 
+- Tested user access by switching accounts and attempting to interact with restricted resources.
+
 ### Sudo Access
 ![Sudo](screenshots/sudo-access.png)
+
+- Granted administrative privileges only to the IT user to control system-level access.
 
 ### Password Policy
 ![Password](screenshots/password-policy.png)
 
+- Configured and implemented a password policy to enforce a minimum password length of 8 characters.
+
 ### Password Policy Check
 ![Password](screenshots/password-policy-check.png)
+
+- Tested the policy by attempting to set a 3-character password for employee1, which was rejected, confirming the policy was successfully enforced.
 
 ## What I Learned
 - How to create and manage users in a Linux environment
