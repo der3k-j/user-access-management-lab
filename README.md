@@ -59,7 +59,7 @@ As part of the security implementation, I enforced a password policy requiring a
 ### Password Policy
 ![Password](screenshots/password-policy.png)
 
-- Configured and implemented a password policy to enforce a minimum password length of 8 characters.
+- Configured a password policy by modifying the `/etc/login.defs` file to enforce a minimum password length of 8 characters (PASS_MIN_LEN 8). 
 
 ### Password Policy Check
 ![Password](screenshots/password-policy-check.png)
